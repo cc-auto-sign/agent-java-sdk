@@ -12,15 +12,6 @@
 
 ### Maven依赖
 
-> 此SDK未发布到Maven中央仓库，请下载发布包并手动安装到本地仓库
-
-```bash
-# 安装JAR到本地Maven仓库
-mvn install:install-file -Dfile=cc-auto-sign-agent-sdk-1.0.0.jar -DgroupId=net.kegui -DartifactId=cc-auto-sign-agent-sdk -Dversion=1.0.0 -Dpackaging=jar
-```
-
-然后在项目中添加依赖：
-
 ```xml
 <dependency>
     <groupId>net.kegui</groupId>
